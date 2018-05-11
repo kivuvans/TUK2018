@@ -1,0 +1,160 @@
+/* -------- Intro Section -------- */
+.hero-box {
+  background-image: url(../img/c5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px 0;
+  padding-left:30px;
+  alignment-adjust:central;
+}
+.hero-box .hero-text h1,
+.hero-box .hero-text p {
+  text-transform: uppercase;
+  text-align:center;
+  line-height: 1em;
+  color: #ffffff;
+  padding-left:30px;
+}
+.hero-box .hero-text h1 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1em;
+  margin: 0 0 15px;
+  padding-left:30px;
+}
+.hero-box .hero-text p {
+  letter-spacing: 0.04em;
+  line-height: 1em;
+  font-size: 30px;
+  margin: 0 0 40px;
+}
+@media (max-width: 768px) {
+  .hero-box {
+    padding: 100px 0;
+  }
+  .hero-box .hero-text h1 {
+    font-size: 25px;
+  }
+  .hero-box .hero-text p {
+    font-size: 20px;
+  }
+}
+
+/* ----- Statistics ----- */
+.statistics-box {
+  display: flex;
+  padding: 10px 10px;
+  margin-top: -70px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
+  box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
+}
+.statistics-box .statistics-item {
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 5px 0;
+}
+.statistics-box .statistics-item .value {
+  display: block;
+  font-weight: 700;
+  line-height: 1em;
+  color: #343434;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  margin: 0 0 12.5px;
+}
+.statistics-box .statistics-item .title {
+  margin: 0;
+  font-size: 18px;
+  color: #717171;
+  line-height: 1em;
+}
+.thumbnail img {
+    height:120px;
+    width:100%;
+}
+
+.prodetails{
+	 height:250px;
+ 
+	width:100%;
+	}
+.samesize{
+	 height:186px;
+ 
+	width:auto;
+	}
+
+.samesize1{
+	 height:100px;
+    width:100%;
+	}
+.statistics-box .statistics-item .img {
+    height: 140px;
+    width: 100%;
+
+}
+.statistics-box .statistics-item:not(:last-of-type) {
+  border-right: 1px solid #d4d4d4;
+}
+@media (max-width: 768px) {
+  .statistics-box {
+    flex-direction: column;
+  }
+  .statistics-box .statistics-item:not(:last-of-type) {
+    border: 0;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    min-width: 100%;
+    border-bottom: 1px solid #d4d4d4;
+  }
+}
+
+/* Talk Business
+---------------------------------*/
+.business-talking{
+	background:url(../img/section-bg1.jpg) top center no-repeat;
+	background-size:cover;
+	padding:60px 0 10px;
+	text-align:center;
+}
+.business-talking h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	padding:0;
+	margin:20px 0 70px;
+	text-transform:uppercase;
+	font-size:42px;
+	color:#fff;
+}
+
+
+
+.thumbnail1{display:block;padding:4px;margin-bottom:20px;line-height:1.72857143;background-color:#fff;border:2px solid #ddd;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}.thumbnail a>img,.thumbnail>img{margin-right:auto;margin-left:auto}a.thumbnail.active,a.thumbnail:focus,a.thumbnail:hover{border-color:#337ab7}.thumbnail1 .caption1{padding:9px;color:#333; font-size:16px; font-weight:20;}
+
+ /*==============================================
+ DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+    padding:5px;
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
